@@ -9,4 +9,6 @@
     <string name="date_fri">Fri</string>
     <string name="date_sat">Sat</string>
 
+    <string name="today">Today</string>
+    <string name="tomorrow">Tmr</string>
 </resources>

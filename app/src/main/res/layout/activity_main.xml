@@ -6,28 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <cn.sloth.com.timepool.view.ChooserView-->
-<!--        android:id="@+id/chooser"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
-
     <cn.sloth.com.timepool.view.ChooserView
         android:id="@+id/chooser"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:weekPrimaryColor="#048074"
-        app:weekSecondaryColor="#50ACA2"
-        app:timelineChoosenColor="#79333333"
-        app:timelineOutDateColor="#8B7E7E7E"
-        app:pickerColor="#80009688"
-        app:pickerMsgColor="#FFFFFE"
-        app:pickerMessColor="#80C42828"
-        app:pickerMessMsgColor="#FFFFFE"
-        app:defaultCubeSize="2"
-        app:minCubeSize="1"
-        app:maxCubeSize="8"
-        app:pickerString="请滑动选择"
-        app:pickerMessString="已被占用"
-        app:pickerOutDateString="已经过期" />
+        android:layout_height="match_parent" />
+
+<!--    <cn.sloth.com.timepool.view.ChooserView-->
+<!--        android:id="@+id/chooser"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:weekPrimaryColor="#048074"-->
+<!--        app:weekSecondaryColor="#50ACA2"-->
+<!--        app:timelineChoosenColor="#79333333"-->
+<!--        app:timelineOutDateColor="#8B7E7E7E"-->
+<!--        app:pickerColor="#80009688"-->
+<!--        app:pickerMsgColor="#FFFFFE"-->
+<!--        app:pickerMessColor="#80C42828"-->
+<!--        app:pickerMessMsgColor="#FFFFFE"-->
+<!--        app:defaultCubeSize="2"-->
+<!--        app:minCubeSize="1"-->
+<!--        app:maxCubeSize="8"-->
+<!--        app:pickerString="请滑动选择"-->
+<!--        app:pickerMessString="已被占用"-->
+<!--        app:pickerOutDateString="已经过期" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
