@@ -1,6 +1,6 @@
 # TimeLinePicker
 
-[英文](/README.MD)
+[英文](/README.md)
 
 中文
 
