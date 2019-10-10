@@ -1,4 +1,9 @@
 # TimeLinePicker
+
+英文
+
+[中文](/README.CN.MD)
+
 This is a library for people who want to show or pick up timelines on a table of 24 hours of a week, you could easily use it by default styles or you could diy your own colors and limitations. Thanks for using.
 
 ## Examples
