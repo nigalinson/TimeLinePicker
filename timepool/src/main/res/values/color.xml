@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="choosen">#d6d6d6</color>
+    <color name="out_date">#7fd6d6d6</color>
+    <color name="line">#e7e7e7</color>
+    <color name="left_time_pool_text_color">#a4a4a4</color>
+
+    <color name="time_picker_flipper_color">#858fb2e4</color>
+    <color name="time_picker_flipper_color_wrong">#6adc2121</color>
+    <color name="time_picker_flipper_text_size">#f14040</color>
+    <color name="time_picker_flipper_normal_text_color">#39ACFF</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChooserView">
+        <attr name="weekPrimaryColor" format="color"/>
+        <attr name="weekSecondaryColor" format="color"/>
+        <attr name="timelineChoosenColor" format="color"/>
+        <attr name="timelineOutDateColor" format="color"/>
+        <attr name="pickerColor" format="color"/>
+        <attr name="pickerMsgColor" format="color"/>
+        <attr name="pickerMessColor" format="color"/>
+        <attr name="pickerMessMsgColor" format="color"/>
+        <attr name="pickerString" format="string"/>
+        <attr name="pickerMessString" format="string"/>
+        <attr name="pickerOutDateString" format="string"/>
+        <attr name="defaultCubeSize" format="integer"/>
+        <attr name="minCubeSize" format="integer"/>
+        <attr name="maxCubeSize" format="integer"/>
+
+    </declare-styleable>
+</resources>

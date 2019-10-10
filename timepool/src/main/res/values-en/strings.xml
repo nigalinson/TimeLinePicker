@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="date_sun">Sun</string>
+    <string name="date_mon">Mon</string>
+    <string name="date_tus">Tues</string>
+    <string name="date_wes">Wed</string>
+    <string name="date_thus">Thur</string>
+    <string name="date_fri">Fri</string>
+    <string name="date_sat">Sat</string>
+
+</resources>

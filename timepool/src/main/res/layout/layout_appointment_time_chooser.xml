@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#f2f2f2"/>
+
+    <cn.sloth.com.timepool.view.TimePool
+        android:id="@+id/time_pool"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:layout_weight="1">
+
+        <cn.sloth.com.timepool.view.RangePicker
+            android:id="@+id/range_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.sloth.com.timepool.view.TimePoolZone
+                android:id="@+id/time_pool_zone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/time_line_total_height">
+
+            </cn.sloth.com.timepool.view.TimePoolZone>
+
+        </cn.sloth.com.timepool.view.RangePicker>
+
+
+    </cn.sloth.com.timepool.view.TimePool>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weeks">
+        <item>@string/date_sun</item>
+        <item>@string/date_mon</item>
+        <item>@string/date_tus</item>
+        <item>@string/date_wes</item>
+        <item>@string/date_thus</item>
+        <item>@string/date_fri</item>
+        <item>@string/date_sat</item>
+    </string-array>
+</resources>

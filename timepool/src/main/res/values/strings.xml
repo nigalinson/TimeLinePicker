@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TimePool</string>
+
+    <string name="date_sun">日</string>
+    <string name="date_mon">一</string>
+    <string name="date_tus">二</string>
+    <string name="date_wes">三</string>
+    <string name="date_thus">四</string>
+    <string name="date_fri">五</string>
+    <string name="date_sat">六</string>
+</resources>

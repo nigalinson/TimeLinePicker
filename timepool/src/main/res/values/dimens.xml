@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="time_line_left_width">50dp</dimen>
+    <dimen name="time_line_right_margin">10dp</dimen>
+
+    <dimen name="time_pool_left_text_size">11dp</dimen>
+    <dimen name="order_full_text_size">13dp</dimen>
+
+    <dimen name="item_margin">2dp</dimen>
+    <dimen name="item_radius">6dp</dimen>
+
+
+    <dimen name="time_line_item_height">33dp</dimen>
+    <dimen name="time_pool_header">10dp</dimen>
+    <dimen name="time_pool_footer">60dp</dimen>
+    <dimen name="time_line_total_height">1654dp</dimen>
+
+
+    <dimen name="time_ranger_picker_fliper_size">25dp</dimen>
+    <dimen name="time_ranger_picker_fliper_margin">20dp</dimen>
+    <dimen name="time_ranger_bar_overflow_size">20dp</dimen>
+    <dimen name="time_ranger_mess_text_size">11dp</dimen>
+
+
+</resources>
