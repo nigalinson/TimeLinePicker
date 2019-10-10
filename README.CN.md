@@ -1,21 +1,21 @@
 # TimeLinePicker
 
-English
+[英文](/README.md)
 
-[Chinese](README.CN.md)
+中文
 
-This is a library for people who want to show or pick up timelines on a table of 24 hours of a week, you could easily use it by default styles or you could diy your own colors and limitations. Thanks for using.
+这个库可以用来在一周以内的时间轴上展示或选择时间片。只需几行代码就可以使用默认样式的选择器，如果有需要的话，也可以自定义颜色和选择器的大小限制。谢谢大家的使用，希望大家能够多多点赞。给您拜个早年了。
 
-## Examples
-### Default styles
+## 展示
+### 默认样式
 ![](examples/example.gif)
 
-### Diy styles
+### 自定义样式
 ![](examples/diy.png)
 
-## Using
+## 使用
 
-### Easily using
+### 简单用法
 
 ```java
 
@@ -41,7 +41,7 @@ chooserView.destroy();
 ```
 
 
-### Further using
+### 自定义用法
 
 ```java
 
