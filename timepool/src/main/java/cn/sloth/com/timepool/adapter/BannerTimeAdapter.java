@@ -74,12 +74,14 @@ public class BannerTimeAdapter extends RecyclerView.Adapter{
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         Date date = bannerTimeProvider.getBannerDate().get(position);
+
+        TextView tvWeek = ((Vh)holder).tvWeekday;
         if(position == 0){
-            ((Vh)holder).tvWeekday.setText(((Vh)holder).tvWeekday.getContext().getResources().getString(R.string.today));
+            tvWeek.setText(tvWeek.getContext().getResources().getString(R.string.today));
         }else if(position == 1){
-            ((Vh)holder).tvWeekday.setText(((Vh)holder).tvWeekday.getContext().getResources().getString(R.string.tomorrow));
+            tvWeek.setText(tvWeek.getContext().getResources().getString(R.string.tomorrow));
         }else{
-            ((Vh)holder).tvWeekday.setText(bannerTimeProvider.getDayOfWeek(date));
+            tvWeek.setText(bannerTimeProvider.getDayOfWeek(date));
         }
         ((Vh)holder).tvDate.setText(simpleDateFormat.format(date));
         //选中第一天
