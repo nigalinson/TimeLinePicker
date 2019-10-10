@@ -13,6 +13,23 @@
 ### 自定义样式
 ![](examples/diy.png)
 
+## 导入
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.nigalinson:TimeLinePicker:release-1.0'
+}
+
+```
+
+
 ## 使用
 
 ### 简单用法
