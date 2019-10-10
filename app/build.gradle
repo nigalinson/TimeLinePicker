@@ -27,4 +27,5 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     api project(':timepool')
+//    implementation 'com.github.nigalinson:TimeLinePicker:release-1.0'
 }
