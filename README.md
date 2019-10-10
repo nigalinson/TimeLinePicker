@@ -13,6 +13,23 @@ This is a library for people who want to show or pick up timelines on a table of
 ### Diy styles
 ![](examples/diy.png)
 
+## Include
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.nigalinson:TimeLinePicker:release-1.0'
+}
+
+```
+
+
 ## Using
 
 ### Easily using
